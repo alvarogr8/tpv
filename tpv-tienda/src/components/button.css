@@ -1,0 +1,16 @@
+button {
+  border: none;
+  border-radius: 0.5rem;
+  font: inherit;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+
+button:disabled {
+  opacity: 0.85;
+}
+
+button:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
